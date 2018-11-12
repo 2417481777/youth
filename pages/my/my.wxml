@@ -1,0 +1,38 @@
+<!--pages/my/my.wxml-->
+<view class='my'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class='user-xx'>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <text class='iphone-hm'>851wrwr</text>
+      </view>
+    </block>
+    <button class="edit">
+      编辑
+    </button>
+  </view>
+
+  <!-- 内容 -->
+  <view class='content'>
+    <view class='content-nr'>
+      <view class='left-img'>
+      
+      </view>
+      <view class='right-text'>
+        <text>我刚才看见了人咬狗,当时人比较饿...</text>
+        <text>创建于 2018年11月8日</text>
+      </view>
+    </view>
+    <view class='content-nr'>
+      <view class='left-img'>
+      
+      </view>
+      <view class='right-text'>
+        <text>我刚才看见了人咬狗,当时人比较饿...</text>
+        <text>创建于 2018年11月8日</text>
+      </view>
+    </view>
+  </view>
+</view>

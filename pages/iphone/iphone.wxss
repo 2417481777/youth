@@ -1,0 +1,57 @@
+/* pages/iphone/iphone.wxss */
+.view {
+   display: flex;
+   justify-content: center;
+   padding-top: 107rpx;
+   flex-wrap: wrap;
+}
+.userinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 258rpx;
+  height: 214rpx;
+  margin-bottom: 40rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.text {
+   width: 400rpx;
+   height:100rpx;
+   font-size: 28rpx;
+   margin-top: 60rpx;
+   margin-bottom: 80rpx;
+}
+.form input {
+   width: 400rpx;
+   height: 60rpx;
+   box-sizing: border-box;
+   border: 1px solid #BBBBBB;
+   font-size: 28rpx;
+}
+.form input:first-child {
+  margin-bottom: 40rpx;
+}
+.ok {
+  width: 160rpx;
+  height:60rpx;
+  font-size: 28rpx;
+  margin-top: 100rpx;
+  line-height: 60rpx;
+}
+.nav {
+   width:160rpx;
+   height:60rpx;
+   margin: 0 auto;
+}

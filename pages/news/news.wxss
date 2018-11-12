@@ -1,0 +1,103 @@
+/* pages/news/news.wxss */
+.news {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.userinfo {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 30rpx;
+  flex-wrap:wrap; 
+}
+
+.userinfo-avatar {
+  width: 140rpx;
+  height: 130rpx;
+  margin-bottom: 50rpx;
+  border-radius: 50%;
+  margin-left:20rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 28rpx;
+}
+.user-xx {
+  width: 100rpx;
+  padding-top: 30rpx;
+}
+.iphone-hm {
+   font-size: 28rpx;
+   margin-top: 26rpx;
+   display: inline-block;
+}
+.usermotto {
+  margin-top: 200px;
+}
+.textarea {
+  width: 100%;
+   padding: 0 10rpx;
+   box-sizing: border-box;
+   margin-bottom: 40rpx;
+   margin-top: 10rpx;
+}
+.textarea textarea {
+  width: 100%;
+  height: 248rpx;
+  border: 1px solid #BBB;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.upFile {
+  width: 100%;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+ 
+}
+.upFile view {
+  width: 25%;
+  height:150rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+}
+.upFile view:nth-child(4n){
+  margin-right: 0;
+}
+.upFile view:first-child {
+  background: #fff;
+  border-radius: 5px;
+  border:1px solid #BBB;
+  /* box-sizing: border-box; */
+}
+.upFile view image {
+  width: 100%;
+  height: 100%;
+  
+}
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 90rpx;
+   background-color: rgb(139, 195, 74);
+   text-align: center;
+   line-height: 90rpx;
+   color: #fff;
+   font-size: 28rpx;
+}
+
+.video video{
+  width: 100%;
+  height: 100%;
+}
+.hide {
+  display: none;
+}

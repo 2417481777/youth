@@ -1,0 +1,74 @@
+/* pages/my/my.wxss */
+.my {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap; 
+}
+.userinfo {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 30rpx;
+  flex-wrap:wrap; 
+}
+
+.userinfo-avatar {
+  width: 140rpx;
+  height: 130rpx;
+  margin-bottom: 50rpx;
+  border-radius: 50%;
+  margin-left:20rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 28rpx;
+}
+.user-xx {
+  width: 100rpx;
+  padding-top: 30rpx;
+}
+.iphone-hm {
+   font-size: 28rpx;
+   margin-top: 26rpx;
+   display: inline-block;
+}
+.usermotto {
+  margin-top: 200px;
+}
+.edit {
+  width: 160rpx;
+  height:60rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  margin-top:110rpx; 
+  margin-left: 260rpx;
+}
+.content {
+  width: 100%;
+}
+.content-nr {
+   width: 100%;
+   padding: 0 40rpx;
+   display: flex;
+   padding-bottom: 26rpx;
+   border-bottom: 1px solid #bbb;
+   padding-top:10rpx; 
+}
+.left-img {
+   width: 98rpx;
+   height:98rpx;
+   background-color: red;
+   margin-right: 20rpx;
+}
+.right-text {
+  font-size: 28rpx;
+}
+.right-text text {
+  display: inline-block;
+}
+.right-text text:last-child {
+   margin-top: 15rpx;
+}

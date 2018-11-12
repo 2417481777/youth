@@ -1,0 +1,17 @@
+{
+  "pages":[ 
+    "pages/news/news",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/iphone/iphone",
+    "pages/my/my"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e6e6e6",
+    "navigationBarTitleText": "爆新闻",
+    "navigationBarTextStyle":"black"
+  }
+}

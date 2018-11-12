@@ -1,0 +1,35 @@
+<!--pages/news/news.wxml-->
+<view class='news'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class='user-xx'>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <text class='iphone-hm'>{{iphone}}</text>
+      </view>
+    </block>
+  </view>
+
+  <view class='textarea'>
+    <textarea>
+    </textarea>
+  </view>
+  <!-- 照片and视频 -->
+  <view class='upFile'>
+    <!-- 点击第一个完成图片或者视频的本地上传 -->
+    <view bindtap='clickImgorVideo' data-type="chooseImg"></view>
+    <!-- 图片 -->
+    <view class='imgs' wx:for="{{choseImg}}" wx:for-item="items" wx:key="{{index}}">
+      <image src='{{items}}'></image>
+    </view>
+    <!-- 视频 -->
+    <view class='video' wx:for="{{choseVideo}}" wx:for-item="items" wx:key="{{index}}">
+      <video src='{{items}}'></video>
+    </view>
+
+  </view>
+  <view class='footer' bindtap='submit'>
+    提交爆料信息
+  </view>
+</view>

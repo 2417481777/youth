@@ -1,0 +1,27 @@
+<!--pages/iphone/iphone.wxml-->
+<view class='view'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <!-- 手机内容 -->
+  <view class='text'>
+    <text>留下您的手机号，以便我们可以联系到您。或为您发放奖金礼品等</text>
+  </view>
+  <!-- 表单 -->
+  <view class='form' >
+    <form bindsubmit="formSubmit">
+      <input name="name"  placeholder='真实姓名(可不填)'></input>
+      <input type="number" name="iphone"  placeholder='手机号码'></input>
+      <button class='ok' formType="submit">
+        完成
+      </button>
+    </form>
+
+
+
+  </view>
+</view>

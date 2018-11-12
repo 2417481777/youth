@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='text'>
+    <text>
+        爆新闻说明。您的爆料如果被采纳使用，您将获得2
+亿5千万元奖励。这笔钱您可以周游世界，遨游太空，奔向太阳。为太阳发光发热出一份力。
+      </text>
+  </view>
+  <navigator class='next' url='../iphone/iphone'>
+    <button class='btn'>
+    下一步
+    </button>
+  </navigator>
+  <view class='footer'>
+    <text>中国青年网 2018</text>
+  </view>
+</view>
